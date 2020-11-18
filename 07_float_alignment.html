@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Float and Alignment</title>
+  <style>
+    .container{
+      max-width:960px;
+      margin:10px auto;
+    }
+    *
+    {
+      box-sizing: border-box;
+    }
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.5em;
+    }
+    .box
+    {
+      background:#f4f4f4;
+      border:1px solid #333;
+      padding:20px;
+      margin-bottom: 15px;
+    }
+    .box p{
+      text-align: justify;
+    }
+    #box2
+    {
+      float:left;
+      width: 68%;
+    }
+    #box3
+    {
+      float:right;
+      width: 30%;
+    }
+    .clear{
+      clear:both;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+  <div id="box1" class="box">
+    <h3>Heading</h3>
+    <p>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore, ipsum optio neque vel velit voluptas quae possimus ipsa iste dolor.</p>
+  </div>
+  <div id="box2" class="box">
+    <h3>Heading</h3>
+    <p>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore, ipsum optio neque vel velit voluptas quae possimus ipsa iste dolor.</p>
+  </div>
+  <div id="box3" class="box">
+    <h3>Heading</h3>
+    <p>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore, ipsum optio neque vel velit voluptas quae possimus ipsa iste dolor.</p>
+  </div>
+  <div class="clear">
+    
+  </div>
+    
+  <div id="box4" class="box">
+    <h3>Heading</h3>
+    <p>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore, ipsum optio neque vel velit voluptas quae possimus ipsa iste dolor.</p>
+  </>
+</div>
+</body>
+</html>
